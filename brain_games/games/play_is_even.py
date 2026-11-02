@@ -1,7 +1,7 @@
 from random import randint
 
-
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def play_is_even() -> tuple[str, str]:
     random_number = randint(1, 100)

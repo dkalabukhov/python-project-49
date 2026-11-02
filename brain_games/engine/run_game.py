@@ -1,7 +1,11 @@
-import prompt
 from collections.abc import Callable
 
-def run_game(description: str, game_function: Callable[[], tuple[str, str]]) -> None:
+import prompt
+
+
+def run_game(
+        description: str,
+        game_function: Callable[[], tuple[str, str]]) -> None:
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ', empty=False).strip()
     print(f'Hello, {user_name}!')
@@ -14,7 +18,8 @@ def run_game(description: str, game_function: Callable[[], tuple[str, str]]) -> 
         if user_answer == solution:
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{solution}'.")
+            print(f"'{user_answer}' is wrong answer ;(.\
+                Correct answer was '{solution}'.")
             print(f"Let's try again, {user_name}!")
             break
     else:
