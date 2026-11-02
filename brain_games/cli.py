@@ -3,5 +3,5 @@ import prompt
 
 def welcome_user() -> None:
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ', empty=False)
-    print(f'Hello, {name.strip()}!')
+    user_name = prompt.string('May I have your name? ', empty=False).strip()
+    print(f'Hello, {user_name}!')
