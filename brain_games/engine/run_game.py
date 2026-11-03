@@ -18,8 +18,10 @@ def run_game(
         if user_answer == solution:
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(.\
-                Correct answer was '{solution}'.")
+            print(
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{solution}'."
+            )
             print(f"Let's try again, {user_name}!")
             break
     else:
