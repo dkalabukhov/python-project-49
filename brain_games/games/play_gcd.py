@@ -1,7 +1,7 @@
 from random import randint
 
-
 DESRIPTION = 'Find the greatest common divisor of given numbers.'
+
 
 def find_gcd(num_a: int, num_b: int) -> int:
     if (num_b == 0):
