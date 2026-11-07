@@ -3,7 +3,7 @@
 The game consists of four console mini-games:
 
 # Installation
-Run following commands in given order:
+Run following commands in a given order:
 ```
 make install
 
@@ -28,3 +28,8 @@ as the result of the expression:
 Type brain-gcd in console to start the game.
 You get two random numbers and need to figure out their greatest common divisor
 [![asciicast](https://asciinema.org/a/1270915.svg)](https://asciinema.org/a/1270915)
+
+## Brain Progression
+Type brain-progression in console to start the game.
+You get progression with a hidden number (..) and you need to figure out the hidden number
+[![asciicast](https://asciinema.org/a/1271557.svg)](https://asciinema.org/a/1271557)
